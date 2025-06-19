@@ -214,11 +214,9 @@ nav {
     }
 
     @media (max-width: 768px) {
-        .contact-images img {
-            max-width: 100%;
-            width: 100%;
-            height: auto;
-         }
+        .contact-images {
+            max-width: 150px;
+        }
     }
 
     .nav-list.active {
@@ -703,6 +701,9 @@ footer {
     flex: 8;
     min-width: 100px;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
 }
 
 .contact-info {
@@ -730,11 +731,11 @@ footer {
 }
 
 .contact-images img {
-    width: auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    display: block;
     object-fit: contain;
+    display: block;
+    max-width: 100%;
 }
 
 footer .copyright {
@@ -815,14 +816,4 @@ footer .copyright {
     footer p {
         font-size: 0.7rem;
     }
-}
-
-@supports (-webkit-touch-callout: none) {
-  .contact-images img {
-    width: auto !important;
-    max-width: 100% !important;
-    height: auto !important;
-    object-fit: contain !important;
-    display: block !important;
-  }
 }
