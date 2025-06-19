@@ -688,9 +688,9 @@ footer {
 
 .contact-section {
     display: flex;
-    justify-content: center; /* Centraliza todo o conteúdo */
+    justify-content: center; 
     align-items: center;
-    gap: 60px; /* Espaço entre logo e texto */
+    gap: 60px;
     flex-wrap: wrap;
     padding: 40px 20px;
     background-color: #dcdcdc;
@@ -700,7 +700,7 @@ footer {
 .contact-images {
     flex: 1;
     display: flex;
-    justify-content: flex-end; /* empurra a logo um pouco para o centro */
+    justify-content: flex-end;
     max-width: 250px;
 }
 
@@ -729,7 +729,7 @@ footer {
 
 .contact-images img {
     width: 100%;
-    max-width: 400px; /* aumenta a logo */
+    max-width: 400px;
     height: auto;
     object-fit: contain;
 }
